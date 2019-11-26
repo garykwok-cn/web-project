@@ -1,0 +1,9 @@
+# web-project
+# 这个是一个简单的demo
+### 使用以下技术：
+- springboot
+- mybatis
+- mysql
+- freemarker
+- 多数据源
+- 自动事务管理
