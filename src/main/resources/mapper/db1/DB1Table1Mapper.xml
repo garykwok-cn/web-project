@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.gary.webproject.mapper.db1.DB1Table1Mapper">
+   <select id="queryTable1List" resultType="com.alibaba.fastjson.JSONObject" parameterType="com.alibaba.fastjson.JSONObject">
+	   select
+	   *
+	   from
+	   table1
+	   <where>
+
+	   </where>
+	   order by cast(name as unsigned)
+   </select>
+</mapper>
